@@ -1,0 +1,78 @@
+body{
+    width: 75%;
+    font-family: arail;
+    margin: 5px auto;
+    color: #000000;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+fieldset{
+    border-radius: 8px;
+}
+
+legend{
+    font-size: 1.4cm;
+    margin-bottom: 10px;
+}
+
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    background-color: #fff;
+    margin: 10px;
+}
+
+label{
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+
+}
+
+input [type="submit"]{
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #16a085;
+    border-radius: 2px;
+    margin: 10px;
+    width: 100%;
+}
+
+.valider{
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+    border: 5px solid red;
+    background-color: red;
+    border-radius: 15px;
+    margin-top: 8px;
+    width: 25%;
+}
+
+.valider a{
+    text-decoration: none;
+    color: #fff;
+    size: 20px;
+}
